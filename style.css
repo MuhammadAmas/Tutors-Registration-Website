@@ -246,7 +246,6 @@ footer {
     gap: 2em;
     margin-bottom: 20px;
 
-
 }
 
 .social-media {
@@ -349,5 +348,6 @@ footer {
     .moreinfo {
         column-count: 1;
         column-gap: 2em;
+        text-align: center;
     }
 }
