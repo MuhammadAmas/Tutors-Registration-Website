@@ -31,6 +31,11 @@ h6 {
     font-family: 'Raleway', sans-serif;
 }
 
+.navbar, .firstSection, .footer-content{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
 .navbar {
     padding: 0px;
     min-height: 70px;
@@ -97,6 +102,7 @@ h6 {
 }
 
 .firstSection .text h2 {
+    font-size: 4rem;
     margin-bottom: 1em;
 }
 
@@ -190,8 +196,9 @@ h6 {
     justify-content: space-around;
     padding: 5em 1em;
 }
-
-
+.tutor-form .text{
+    width: 25%;
+}
 .form-btn input {
     border: none;
     text-align: center;
