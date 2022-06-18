@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5,h6 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 60px;
+    /* gap: 60px; */
 }
 .navbar i{
     color: var(--darkBlue); 
@@ -61,7 +61,6 @@ h1,h2,h3,h4,h5,h6 {
     --webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: var(--darkBlue);
-
 }
 
 .firstSection{
@@ -195,20 +194,20 @@ footer{
 @media(max-width:768px){
     .hamburger{
         display: block;
-        color: var(--white);
+        /* color: var(--white); */
     }
 
     .hamburger.active .bar:nth-child(2){
         opacity: 0;
-        color: var(--white);
+        /* color: var(--white); */
     }
     .hamburger.active .bar:nth-child(1){
         transform: translateY(8px) rotate(45deg);
-        color: var(--white);
+        /* color: var(--white); */
     }
     .hamburger.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
-        color: var(--white);
+        /* color: var(--white); */
     }
 
     .nav-menu{
