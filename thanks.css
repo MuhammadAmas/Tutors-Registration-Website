@@ -1,8 +1,6 @@
 :root{
     --darkBlue: hsl(243, 87%, 12%);
-    --lightBlue: #3065f8;
     --white: #fff;
-    --black: #000;
 }
 body {
     margin: 0;
