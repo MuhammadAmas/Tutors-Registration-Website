@@ -33,7 +33,7 @@ h6 {
 
 .navbar, .firstSection, .footer-content{
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .navbar {
@@ -90,7 +90,6 @@ h6 {
     justify-content: center;
     align-items: center;
     margin-top: 9em;
-
 }
 
 .firstSection .text {
