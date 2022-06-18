@@ -293,22 +293,18 @@ footer {
 @media(max-width:768px) {
     .hamburger {
         display: block;
-        /* color: var(--white); */
     }
 
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
-        /* color: var(--white); */
     }
 
     .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
-        /* color: var(--white); */
     }
 
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
-        /* color: var(--white); */
     }
 
     .nav-menu {
@@ -335,7 +331,9 @@ footer {
     .nav-menu.active {
         left: 0;
     }
-
+    .firstSection{
+        margin-top: 9em;
+    }
     .firstSection .text h2{
         font-size: 2rem;
     }
