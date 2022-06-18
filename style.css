@@ -90,7 +90,7 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5em auto;
+    margin: 9em auto;
 }
 
 .firstSection .text {
@@ -330,9 +330,6 @@ footer {
 
     .nav-menu.active {
         left: 0;
-    }
-    .firstSection{
-        margin-top: 9em;
     }
     .firstSection .text h2{
         font-size: 2rem;
