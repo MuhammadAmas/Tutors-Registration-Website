@@ -32,7 +32,9 @@ h6 {
     margin-bottom: 0.7em;
 }
 
-.navbar, .firstSection, .footer-content{
+.navbar,
+.firstSection,
+.footer-content {
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -66,7 +68,38 @@ h6 {
 .navbar a {
     text-decoration: none;
     color: var(--darkBlue);
+    display: inline-block;
+    position: relative;
 
+}
+
+.nav-item a:before,
+.nav-item a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0px;
+    left: 0;
+    background-color: var(--darkBlue);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-item a:hover:before {
+    top: -5px;
+    transform-origin: left;
+}
+
+.nav-item a:hover:after {
+    bottom: -5px;
+    transform-origin: right;
+}
+
+.nav-item a:hover::before,
+.nav-item a:hover::after {
+    transform: scaleX(1);
 }
 
 .hamburger {
@@ -103,10 +136,10 @@ h6 {
 
 .firstSection .text h2 {
     font-size: 4rem;
-    
+
 }
 
-.firstSection .text p{
+.firstSection .text p {
     width: 80%;
 }
 
@@ -200,9 +233,11 @@ h6 {
     justify-content: space-around;
     padding: 5em 1em;
 }
-.tutor-form .text{
+
+.tutor-form .text {
     width: 25%;
 }
+
 .form-btn input {
     border: none;
     text-align: center;
@@ -210,10 +245,11 @@ h6 {
     width: 200px;
     height: 50px;
     background-color: #3065f8;
-    color: white;  
+    color: white;
     font-size: 1.2rem;
 }
-.form-btn input:hover{
+
+.form-btn input:hover {
     background-color: #070439;
 }
 
@@ -237,6 +273,10 @@ footer {
     margin: 2em 0;
 }
 
+.messagebox h2 {
+    font-size: 4rem;
+}
+
 .contact>div {
     display: flex;
     flex-direction: row;
@@ -258,7 +298,7 @@ footer {
     margin-bottom: 20px;
 }
 
-.moreinfo ul li a{
+.moreinfo ul li a {
     text-decoration: none;
     color: var(--white);
 }
@@ -267,10 +307,12 @@ footer {
     display: flex;
     gap: 2em;
 }
-.social-media a{
+
+.social-media a {
     text-decoration: none;
     color: var(--white);
 }
+
 .social-media i {
     border-radius: 50%;
     border: 1px solid white;
@@ -331,19 +373,21 @@ footer {
     .nav-menu.active {
         left: 0;
     }
-    .firstSection .text h2{
+
+    .firstSection .text h2 {
         font-size: 2rem;
     }
 
-    .tutor-form{
+    .tutor-form {
         display: flex;
         flex-direction: column;
-        justify-content:space-around;
+        justify-content: space-around;
         align-items: center;
         gap: 2em;
         text-align: center;
     }
-    .tutor-form .text{
+
+    .tutor-form .text {
         width: 80%;
     }
 }
@@ -363,6 +407,10 @@ footer {
         gap: 2em;
         align-items: center;
         justify-content: center;
+    }
+
+    .messagebox h2 {
+        font-size: 2rem;
     }
 
     .moreinfo {
