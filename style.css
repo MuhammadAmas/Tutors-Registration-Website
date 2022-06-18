@@ -1,0 +1,228 @@
+:root{
+    --darkBlue: #070439;
+    --lightBlue: #3065f8;
+    --white: #fff;
+    --black: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+    padding: 0 24px;
+    min-height: 70px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+.navbar i{
+    color: var(--darkBlue); 
+    padding: 15px; 
+}
+.navbar ul{
+    list-style: none;
+    color: var(--darkBlue);
+}
+
+.navbar a{
+    text-decoration: none;
+
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    --webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--darkBlue);
+
+}
+
+.firstSection{
+    color: var(--darkBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9em;
+    
+}
+.firstSection .text{
+    font-size: 1rem;
+    color: var(--darkBlue);
+    margin: 2em;
+    min-width: 50%;
+    
+}
+.firstSection .text h2{
+    margin-bottom: 1em;
+}
+.firstSection img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.messagebox {
+    font-size: 2rem;
+    position: relative;
+    background-color: var(--dark);
+    color: var(--darkBlue);
+    margin: 5% 20% 20% 20%;
+    border-radius: 10px;
+}
+
+.messagebox h2 {
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2.5em;
+}
+
+
+.messagebox .inputbox input,
+.messagebox .inputbox textarea {
+    position: relative;
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 2em;
+    /* font-size: 0.8rem; */
+    border: none;
+    border-bottom: 2px solid var(--darkBlue);
+    outline: none;
+    background-color: var(--dark);
+    color: var(--darkBlue);
+}
+
+.messagebox .inputbox label {
+    position: absolute;
+    padding: 5px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    left: 0;
+}
+
+.messagebox .inputbox input:focus~label,
+.messagebox .inputbox input:valid~label,
+.messagebox .inputbox textarea:focus~label,
+.messagebox .inputbox textarea:valid~label {
+    color: var(--darkBlue);
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.submit button {
+    border: none;
+    outline: none;
+    padding: 17px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btn {
+    color: var(--white);
+    background-color: var(--darkBlue);
+    border-radius: 0.8em;
+    margin: 0.4em;
+    padding: 0.2em 0.4em;
+    font-size: 1.2rem;
+    border: none;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+}
+
+.btn:hover {
+    opacity: 0.9;
+    background-color: var(--white);
+    color: var(--darkBlue);
+}
+
+footer{
+    padding: 6em 1em;
+    background-color: #070439;
+    color: #fff;
+    justify-content: space-between;
+   
+}
+
+.footer-content{
+    display: flex; 
+    justify-content: space-between;
+}
+.contact a{
+    color: #fff;
+}
+.moreinfo ul{
+    list-style: none;
+    gap: 1em;
+
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media(max-width:768px){
+    .hamburger{
+        display: block;
+        color: var(--white);
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+        color: var(--white);
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+        color: var(--white);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+        color: var(--white);
+    }
+
+    .nav-menu{
+        position: absolute;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--darkBlue);
+        color: var(--white);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    .navbar a{
+        color: var(--white);
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+
+
+}

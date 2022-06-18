@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/157af05854.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <i class="fa-solid fa-book-open fa-2x"> V TUTOR</i>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a class="nav-link" href="">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">CONTACT</a>
+            </li>
+        </ul>
+
+        <div class="hamburger">
+            <span class="bar">HOME</span>
+            <span class="bar">ABOUT</span>
+            <span class="bar">CONTACT</span>
+        </div>
+    </nav>
+
+
+    <section class="firstSection">
+        <div class="text">
+            <h2>We Provide Tutions And Tutors</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam ab rerum iure? Officiis quas quidem
+                facere et distinctio dolores ipsum tempora, delectus libero fugit quae perspiciatis dolor assumenda
+                aliquam culpa.</p>
+        </div>
+        <picture class="image">
+            <img src="illustration-2.svg" alt="">
+        </picture>
+    </section>
+
+
+    <div class="messagebox" id="messagebox">
+        <h2>CONTACT US</h2>
+        <form action="https://formsubmit.co/amaswaseem@gmail.com" method="POST">
+            <div class="inputbox">
+                <input type="text" name="name" required="required" />
+                <label>Name</label>
+            </div>
+            <div class="inputbox">
+                <input type="email" name="email" required="required" />
+                <label>Email</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" name="subject" required="required" />
+                <label>Subject</label>
+            </div>
+            <div class="inputbox">
+                <textarea name="message" id="message" rows="5" required="required"></textarea>
+                <label>Type Your Message...</label>
+            </div>
+            <div class="submit">
+                <button type="submit" value="Send" class="submit btn">SEND</button>
+            </div>
+
+            <input type="hidden" name="_next" value="https://muhammadamas.netlify.app/thanks.html" />
+            <input type="hidden" name="_captcha" value="false" />
+
+        </form>
+
+    </div>
+
+    <footer>
+        <div class="footer-content">
+
+            <div class="contact">
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+92-312-456-7890</p>
+                </div>
+                <div>
+                    <a href="mailto:amaswaseem@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <p>amaswaseem@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="moreinfo">
+
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Jobs</li>
+                    <li>Contact Us</li>
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                </ul>
+            </div>
+
+            <div class="social-media">
+                <i class="fa-solid fa-book-copy"></i>
+
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
