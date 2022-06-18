@@ -1,12 +1,14 @@
 :root{
-    --dark: #304d63;
-    --light: #b2e7e8;
+    --darkBlue: hsl(243, 87%, 12%);
+    --lightBlue: #3065f8;
+    --white: #fff;
+    --black: #000;
 }
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--dark);
-    color: var(--light);
+    background-color: var(--white);
+    color: var(---darkBlue);
     
 
 }
@@ -17,10 +19,10 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 100px;
-    background: var(--light);
-    color: var(--dark);
+    background: var(--white);
+    color: var(--darkBlue);
     box-sizing: border-box;
-    box-shadow: 0px 15px 25px hsla(0, 0%, 0%, 0.5);
+    box-shadow: 0px 15px 25px hsla(243, 87%, 12%, 0.5);
     border-radius: 10px;
 }
 
@@ -36,17 +38,18 @@ body {
 .btn button {
     border: none;
     outline: none;
-    background: var(--dark);
+    background: var(--darkBlue);
+    color: var(--white);
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
     margin: 25px 15px;
-    box-shadow: 0px 0px 10px 0px hsla(0, 0%, 0%, 0.5);
+    box-shadow: 0px 0px 10px 0px hsla(243, 87%, 12%, 0.5);
 
 }
 
 .btn a {
     text-decoration: none;
     font-weight: bold;
-    color:var(--light)
+    color: var(--white);
 }
