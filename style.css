@@ -157,7 +157,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 footer{
-    /* padding: 6em 1em; */
+    padding: 6em 1em;
     background-color: #070439;
     color: #fff;
     justify-content: space-between;
