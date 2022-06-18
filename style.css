@@ -290,4 +290,9 @@ footer {
         align-items: center;
         gap: 4em;
     }
+
+    .moreinfo{
+        column-count: 1;
+        column-gap: 2em;
+    }
 }
