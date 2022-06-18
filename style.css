@@ -232,6 +232,15 @@ footer{
     .nav-menu.active{
         left: 0;
     }
+}
 
 
+@media(max-width:768px){
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4em;
+    }
 }
