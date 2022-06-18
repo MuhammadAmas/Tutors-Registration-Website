@@ -290,6 +290,12 @@ footer {
         align-items: center;
         gap: 4em;
     }
+    .contact {
+        flex-direction: column;
+        gap: 2em;
+        align-items: center;
+        justify-content: center;
+    }
 
     .moreinfo{
         column-count: 1;
