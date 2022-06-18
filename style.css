@@ -1,15 +1,17 @@
-:root{
+:root {
     --darkBlue: #070439;
     --lightBlue: #3065f8;
     --white: #fff;
     --black: #000;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-html{
+
+html {
     scroll-behavior: smooth;
     scroll-padding-top: 5em;
     transition: 0.3s;
@@ -19,41 +21,51 @@ body {
     scrollbar-width: none;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Raleway', sans-serif;
 }
 
-.navbar{
+.navbar {
     padding: 0px;
-    min-height: 70px ;
+    min-height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* gap: 60px; */
 }
-.navbar i{
-    color: var(--darkBlue); 
-    padding: 15px; 
+
+.navbar i {
+    color: var(--darkBlue);
+    padding: 15px;
 }
-.navbar ul{
+
+.navbar ul {
     list-style: none;
     color: var(--darkBlue);
 }
 
-.navbar a{
+.navbar a {
     text-decoration: none;
 
 }
-.hamburger{
+
+.hamburger {
     display: none;
     cursor: pointer;
 }
-.bar{
+
+.bar {
     display: block;
     width: 25px;
     height: 3px;
@@ -64,25 +76,28 @@ h1,h2,h3,h4,h5,h6 {
     margin-right: 15px;
 }
 
-.firstSection{
+.firstSection {
     color: var(--darkBlue);
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 9em;
-    
+
 }
-.firstSection .text{
+
+.firstSection .text {
     font-size: 1rem;
     color: var(--darkBlue);
     margin: 1em;
     min-width: 50%;
-    
+
 }
-.firstSection .text h2{
+
+.firstSection .text h2 {
     margin-bottom: 1em;
 }
-.firstSection img{
+
+.firstSection img {
     max-width: 100%;
     max-height: 100%;
 }
@@ -163,55 +178,84 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--darkBlue);
 }
 
-footer{
+footer {
     padding: 6em 1em;
     background-color: #070439;
     color: #fff;
     justify-content: space-between;
-   
+
 }
 
-.footer-content{
-    display: flex; 
+.footer-content {
+    display: flex;
     justify-content: space-between;
 }
-.contact a{
-    color: #fff;
-}
-.moreinfo ul{
-    list-style: none;
-    gap: 1em;
-
-}
-
-.social-media{
+.contact{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 2em;
+    margin: 2em 0;
+}
+.contact >div{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.contact a {
+    color: #fff;
+}
+
+.moreinfo{
+    column-count: 2;
+    column-gap: 12em;
+}
+
+.moreinfo ul li {
+    list-style: none;
+    gap: 2em;
+    margin-bottom: 20px;
+    
+
+}
+
+.social-media {
+    display: flex;
+    gap: 2em;
+}
+
+.social-media i {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 
-@media(max-width:768px){
-    .hamburger{
+@media(max-width:768px) {
+    .hamburger {
         display: block;
         /* color: var(--white); */
     }
 
-    .hamburger.active .bar:nth-child(2){
+    .hamburger.active .bar:nth-child(2) {
         opacity: 0;
         /* color: var(--white); */
     }
-    .hamburger.active .bar:nth-child(1){
+
+    .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
         /* color: var(--white); */
     }
-    .hamburger.active .bar:nth-child(3){
+
+    .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
         /* color: var(--white); */
     }
 
-    .nav-menu{
+    .nav-menu {
         position: absolute;
         left: -100%;
         top: 70px;
@@ -223,20 +267,23 @@ footer{
         text-align: center;
         transition: 0.3s;
     }
-    .nav-item{
+
+    .nav-item {
         margin: 16px 0;
     }
-    .navbar a{
+
+    .navbar a {
         color: var(--white);
     }
-    .nav-menu.active{
+
+    .nav-menu.active {
         left: 0;
     }
 }
 
 
-@media(max-width:768px){
-    .footer-content{
+@media(max-width:768px) {
+    .footer-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
