@@ -29,6 +29,7 @@ h4,
 h5,
 h6 {
     font-family: 'Raleway', sans-serif;
+    margin-bottom: 0.7em;
 }
 
 .navbar, .firstSection, .footer-content{
@@ -102,7 +103,7 @@ h6 {
 
 .firstSection .text h2 {
     font-size: 4rem;
-    margin-bottom: 1em;
+    
 }
 
 .firstSection .text p{
@@ -255,14 +256,21 @@ footer {
     list-style: none;
     gap: 2em;
     margin-bottom: 20px;
+}
 
+.moreinfo ul li a{
+    text-decoration: none;
+    color: var(--white);
 }
 
 .social-media {
     display: flex;
     gap: 2em;
 }
-
+.social-media a{
+    text-decoration: none;
+    color: var(--white);
+}
 .social-media i {
     border-radius: 50%;
     border: 1px solid white;
@@ -328,6 +336,10 @@ footer {
         left: 0;
     }
 
+    .firstSection .text h2{
+        font-size: 2rem;
+    }
+
     .tutor-form{
         display: flex;
         flex-direction: column;
@@ -335,6 +347,9 @@ footer {
         align-items: center;
         gap: 2em;
         text-align: center;
+    }
+    .tutor-form .text{
+        width: 80%;
     }
 }
 
