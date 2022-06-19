@@ -323,6 +323,11 @@ footer {
     align-items: center;
 }
 
+.social-btn:hover{
+    background-color: var(--white);
+    color: var(--darkBlue);
+}
+
 .copyright {
     display: flex;
     flex-direction: column;
