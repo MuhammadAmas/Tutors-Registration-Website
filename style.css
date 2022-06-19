@@ -148,6 +148,38 @@ h6 {
     max-height: 100%;
 }
 
+.curved {
+    position: relative;
+    background: #070439;
+    color: #fff;
+    text-align: center;
+
+}
+
+.curved h1 {
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0rem;
+
+}
+
+.curved p {
+    font-size: 1rem;
+    margin: 0 5rem 0 5rem;
+
+}
+
+.curved svg {
+    display: block;
+}
+
+.upper {
+    background: #fff;
+}
+.upper h1{
+    background-color: var(--darkBlue) ;
+}
+
 
 
 .messagebox {
