@@ -34,7 +34,8 @@ h6 {
 
 .navbar,
 .firstSection,
-.footer-content {
+.footer-content,
+.about-us {
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -141,6 +142,8 @@ h6 {
 
 .firstSection .text p {
     width: 80%;
+    font-size: 1.2rem;
+
 }
 
 .firstSection img {
@@ -158,7 +161,7 @@ h6 {
     font-size: 4rem;
 }
 .about-us p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     
 }
 
