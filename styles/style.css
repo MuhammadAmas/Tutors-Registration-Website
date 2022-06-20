@@ -148,41 +148,22 @@ h6 {
     max-height: 100%;
 }
 
-.curved {
-    position: relative;
-    background: #070439;
-    color: #fff;
+.about-us{
+    width: 60%;
+    margin: 12em auto;
     text-align: center;
-
+    color: var(--darkBlue);
 }
-
-.curved h1 {
+.about-us h2{
     font-size: 4rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 0rem;
-
 }
-
-.curved p {
-    font-size: 1rem;
-    margin: 0 5rem 0 5rem;
-
-}
-
-.curved svg {
-    display: block;
-}
-
-.upper {
-    background: #fff;
-}
-.upper h1{
-    background-color: var(--darkBlue) ;
+.about-us p{
+    font-size: 1.5rem;
+    
 }
 
 .messagesection{
     background-color: #f6f6fe;
-    /* margin: 0 auto; */
     clip-path: ellipse(126% 100% at 50% 100%);
     padding: 2rem 0;
 }
