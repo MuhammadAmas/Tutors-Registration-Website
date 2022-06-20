@@ -50,7 +50,7 @@
 
     <div class="curved">
         <div class="upper">
-            
+
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300">
                 <path fill="#070439" fill-opacity="1"
                     d="M0,160L48,165.3C96,171,192,181,288,154.7C384,128,480,64,576,64C672,64,768,128,864,165.3C960,203,1056,213,1152,202.7C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
@@ -58,7 +58,7 @@
             </svg>
             <h1>ABOUT US</h1>
         </div>
-        
+
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorem animi repellendus iure itaque
             eveniet soluta dignissimos ab voluptas placeat harum est fugiat nesciunt, quasi reiciendis officia unde,
             accusantium ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea veniam provident iste saepe eos
@@ -71,36 +71,37 @@
         </svg>
 
     </div>
+    <section class="messagesection">
+        <div class="messagebox" id="contact">
+            <h2>CONTACT US</h2>
+            <form action="https://formsubmit.co/amaswaseem@gmail.com" method="POST">
+                <div class="inputbox">
+                    <input type="text" name="name" required="required" />
+                    <label>Name</label>
+                </div>
+                <div class="inputbox">
+                    <input type="email" name="email" required="required" />
+                    <label>Email</label>
+                </div>
+                <div class="inputbox">
+                    <input type="text" name="subject" required="required" />
+                    <label>Subject</label>
+                </div>
+                <div class="inputbox">
+                    <textarea name="message" id="message" rows="5" required="required"></textarea>
+                    <label>Type Your Message...</label>
+                </div>
+                <div class="submit">
+                    <button type="submit" value="Send" class="submit btn">SEND</button>
+                </div>
 
-    <div class="messagebox" id="contact">
-        <h2>CONTACT US</h2>
-        <form action="https://formsubmit.co/amaswaseem@gmail.com" method="POST">
-            <div class="inputbox">
-                <input type="text" name="name" required="required" />
-                <label>Name</label>
-            </div>
-            <div class="inputbox">
-                <input type="email" name="email" required="required" />
-                <label>Email</label>
-            </div>
-            <div class="inputbox">
-                <input type="text" name="subject" required="required" />
-                <label>Subject</label>
-            </div>
-            <div class="inputbox">
-                <textarea name="message" id="message" rows="5" required="required"></textarea>
-                <label>Type Your Message...</label>
-            </div>
-            <div class="submit">
-                <button type="submit" value="Send" class="submit btn">SEND</button>
-            </div>
+                <input type="hidden" name="_next" value="https://vtutor.netlify.app/thanks.html" />
+                <input type="hidden" name="_captcha" value="false" />
 
-            <input type="hidden" name="_next" value="https://vtutor.netlify.app/thanks.html" />
-            <input type="hidden" name="_captcha" value="false" />
+            </form>
 
-        </form>
-
-    </div>
+        </div>
+    </section>
 
     <div class="tutor-form">
         <div class="text">
@@ -142,7 +143,7 @@
                 </div>
 
                 <div class="social-media">
-                    <a href="https://www.facebook.com/mohammad.amas.79" target="_blank" >
+                    <a href="https://www.facebook.com/mohammad.amas.79" target="_blank">
                         <i class="fa-brands fa-facebook-f social-btn"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/amaswaseem/" target="_blank">

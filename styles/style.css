@@ -180,14 +180,19 @@ h6 {
     background-color: var(--darkBlue) ;
 }
 
-
+.messagesection{
+    background-color: #f6f6fe;
+    /* margin: 0 auto; */
+    clip-path: ellipse(126% 100% at 50% 100%);
+    padding: 2rem 0;
+}
 
 .messagebox {
     position: relative;
-    background-color: var(--dark);
     color: var(--darkBlue);
     margin: 5% 20% 20% 20%;
     border-radius: 10px;
+    
 }
 
 .messagebox h2 {
