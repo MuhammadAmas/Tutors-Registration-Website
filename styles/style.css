@@ -130,7 +130,7 @@ h6 {
 .firstSection .text {
     font-size: 1rem;
     color: var(--darkBlue);
-    margin: 1em;
+    margin-left: 1em;
     min-width: 50%;
 
 }
