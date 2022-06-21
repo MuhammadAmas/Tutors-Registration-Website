@@ -357,3 +357,8 @@ footer {
     margin: 2em 0 -2em 0;
 }
 
+.footer-content a:hover,
+.footer-content p:hover {
+    color: #3065f8;
+}
+
