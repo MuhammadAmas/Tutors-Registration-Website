@@ -151,21 +151,23 @@ h6 {
     max-height: 100%;
 }
 
-.about-us{
+.about-us {
     width: 60%;
     margin: 12em auto;
     text-align: center;
     color: var(--darkBlue);
 }
-.about-us h2{
+
+.about-us h2 {
     font-size: 4rem;
 }
-.about-us p{
+
+.about-us p {
     font-size: 1.2rem;
-    
+
 }
 
-.messagesection{
+.messagesection {
     background-color: #f6f6fe;
     clip-path: ellipse(126% 100% at 50% 100%);
     padding: 2rem 0;
@@ -176,7 +178,7 @@ h6 {
     color: var(--darkBlue);
     margin: 5% 20% 20% 20%;
     border-radius: 10px;
-    
+
 }
 
 .messagebox h2 {
@@ -346,7 +348,7 @@ footer {
 }
 
 
-.social-media i:hover{
+.social-media i:hover {
     background-color: var(--white);
     color: var(--darkBlue);
 }
@@ -363,4 +365,3 @@ footer {
 .email-icon i:hover {
     color: #3065f8;
 }
-

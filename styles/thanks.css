@@ -1,13 +1,14 @@
-:root{
+:root {
     --darkBlue: hsl(243, 87%, 12%);
     --white: #fff;
 }
+
 body {
     margin: 0;
     padding: 0;
     background-color: var(--white);
     color: var(---darkBlue);
-    
+
 
 }
 

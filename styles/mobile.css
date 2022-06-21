@@ -1,7 +1,8 @@
 @media(max-width:768px) {
-    h2{
+    h2 {
         font-size: 2rem;
     }
+
     .hamburger {
         display: block;
     }
@@ -46,15 +47,18 @@
     .firstSection .text h2 {
         font-size: 2rem;
     }
-    .about-us{
+
+    .about-us {
         width: 70%;
     }
-    .about-us h2{
+
+    .about-us h2 {
         font-size: 2rem;
     }
-    .about-us p{
+
+    .about-us p {
         font-size: 1rem;
-        
+
     }
 
     .tutor-form {
@@ -95,4 +99,3 @@
         text-align: center;
     }
 }
-
