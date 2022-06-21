@@ -327,6 +327,7 @@ footer {
 .social-media {
     display: flex;
     gap: 2em;
+    margin: auto 0;
 }
 
 .social-media a {
@@ -345,7 +346,7 @@ footer {
 }
 
 
-.social-btn:hover{
+.social-media i:hover{
     background-color: var(--white);
     color: var(--darkBlue);
 }
