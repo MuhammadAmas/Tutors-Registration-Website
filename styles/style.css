@@ -344,6 +344,7 @@ footer {
     align-items: center;
 }
 
+
 .social-btn:hover{
     background-color: var(--white);
     color: var(--darkBlue);
@@ -358,7 +359,7 @@ footer {
 }
 
 .footer-content a:hover,
-.footer-content p:hover {
+.footer-content i:hover {
     color: #3065f8;
 }
 
