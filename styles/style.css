@@ -71,7 +71,6 @@ h6 {
     color: var(--darkBlue);
     display: inline-block;
     position: relative;
-
 }
 
 .nav-item a:before,
@@ -132,18 +131,15 @@ h6 {
     color: var(--darkBlue);
     margin-left: 1em;
     min-width: 50%;
-
 }
 
 .firstSection .text h2 {
     font-size: 4rem;
-
 }
 
 .firstSection .text p {
     width: 80%;
     font-size: 1.2rem;
-
 }
 
 .firstSection img {
@@ -164,7 +160,6 @@ h6 {
 
 .about-us p {
     font-size: 1.2rem;
-
 }
 
 .messagesection {
@@ -178,7 +173,6 @@ h6 {
     color: var(--darkBlue);
     margin: 5% 20% 20% 20%;
     border-radius: 10px;
-
 }
 
 .messagebox h2 {
@@ -188,7 +182,6 @@ h6 {
     justify-content: center;
     margin: 1em 0;
 }
-
 
 .messagebox .inputbox input,
 .messagebox .inputbox textarea {
@@ -281,7 +274,6 @@ footer {
     background-color: #070439;
     color: #fff;
     justify-content: space-between;
-
 }
 
 .footer-content {
